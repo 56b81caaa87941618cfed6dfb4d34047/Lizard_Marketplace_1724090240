@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724090243", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Lizard Marketplace</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724090243", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What types of lizards are available on your marketplace?", description: "Our marketplace offers a wide variety of lizards, including geckos, iguanas, chameleons, and bearded dragons. We work with reputable breeders to ensure a diverse selection of species and morphs.", expanded: false },
+                { title: "How do I ensure the lizard I purchase is healthy?", description: "All lizards on our marketplace come with health guarantees and are thoroughly checked by veterinarians before listing. We also provide detailed care information and support to ensure your new pet thrives in its new home.", expanded: false },
+                { title: "What's included with my lizard purchase?", description: "Each lizard comes with a starter care kit, including feeding guidelines, habitat recommendations, and a health certificate. We also offer optional add-ons such as terrariums, heating equipment, and food supplies.", expanded: false },
+                { title: "How does shipping work for live lizards?", description: "We use specialized, insulated packaging and express shipping methods to ensure the safe and comfortable transport of your lizard. All shipments are tracked and insured, and we coordinate delivery times to minimize stress on the animal.", expanded: false },
             ],
         };
     },
